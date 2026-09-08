@@ -1,6 +1,6 @@
 # Provenance and reuse status
 
-This package adapts a community-research method developed during a September 2026 research exercise. Its central distinction is between evidence of product supply and evidence of a buyer's problem. It makes no claim that this distinction is novel.
+Community Problem Radar is a reusable AI skill written in Markdown, derived from an AI-assisted scan of 17 Reddit communities in September 2026. It packages the research instructions and supporting material for others to use or adapt. Its central distinction is between evidence of product supply and evidence of a buyer's problem. It makes no claim that this distinction is novel.
 
 The package contains original explanatory prose, a blank research template, assistant instructions and an entirely synthetic example. The example's sources, records, quantities and outcomes are invented for demonstration. They are not paraphrases of individual community posts.
 
