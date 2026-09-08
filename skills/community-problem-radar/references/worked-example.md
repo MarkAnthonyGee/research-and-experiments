@@ -1,58 +1,31 @@
-# Worked example: appointment changes
+# Worked answer: appointment changes
 
-**All records and quantities below are fictional.** Source IDs refer to the invented accounts on this page, not live communities. This demonstrates how to fill the research template and does not report market evidence.
+Try the [practice input](../assets/practice-input.md) first. This is one defensible reading of that fictional packet, not a market finding or proof that the method predicts demand.
 
-## Decision and coverage
+## 1. Who is having the problem?
 
-Decide whether independent repair-shop schedulers merit interviews about reconciling rescheduled appointments. Requested window: 1–7 September 2026, UTC. Review all supplied records, then stop at an interview decision.
+Repair-shop schedulers in P1 and P2. R1 describes a related integration failure, but their occupation is unknown, so it is adjacent evidence rather than a third repair-shop account.
 
-Input is a synthetic packet with no personal information. No platform collection or retention obligation applies to these invented records.
+## 2. What task is going wrong?
 
-| Source | Role | Selection | Raw items | Observed window | Full cutoff reached? | Gaps |
-|---|---|---|---:|---|---|---|
-| Demo builder board | Supplier | Latest three entries | 3 | September 6–7 | No | Packet ends after three; no engagement or replies |
-| Demo repair forum | Practitioner | Three selected accounts | 3 | September 2–5 | No | Curated sample; no engagement or replies |
-| Demo scheduling reviews | Reviewer | Two selected reviews | 2 | September 3–4 | No | Curated sample; no verified-purchase status |
+Keeping the appointment calendar current when plans change. P1 describes delayed copying; P2 reports double bookings. Multiple incoming channels could contribute, but the records do not establish that explanation.
 
-Raw total: 8. Retained accounts: 7. Removed copies: 1. All eight records were read, including the contradictory and irrelevant accounts.
+## 3. What do they do about it now?
 
-## Supplied records
+P1 copies messages at closing and reports about 20 minutes on busy days. P2 keeps a paper log. R1 checks imports manually. These are reported workarounds; no record establishes spending on a fix or measured financial loss.
 
-| ID and date | Invented account | Initial labels and review |
-|---|---|---|
-| B1, September 6 | A vendor launches an appointment-sync product at 12 units of currency per month. | Supply; listed price does not establish spending |
-| B2, September 7 | The same vendor republishes the same B1 announcement and destination link. | Confirmed duplicate of B1; remove one copy |
-| B3, September 7 | A different vendor advertises automated appointment reminders. | Supply; adjacent function, not evidence of rescheduling pain |
-| P1, September 2 | A scheduler copies reschedules from messages into a calendar at closing; reports about 20 minutes on busy days. | Pain, workaround, self-reported time cost |
-| P2, September 3 | Another shop reports two recent double bookings after changes arrived while the scheduler was away; uses a paper change log. | Pain and workaround; financial loss unknown |
-| P3, September 5 | A third shop says its current shared calendar works because all staff enter changes immediately. | Contradiction; process discipline may resolve the problem |
-| R1, September 3 | A separate reviewer reports manually checking imported appointment changes after a scheduling integration stopped updating. | Pain and workaround; may be one product-specific bug |
-| R2, September 4 | A reviewer dislikes a scheduling application's color choices. | Excluded from this cluster; no appointment-change failure |
+## 4. What evidence supports or contradicts the problem?
 
-Independence is stipulated by the synthetic packet for P1, P2 and R1. In real evidence it would need checking; different source labels alone would not establish it. B1 and B2 are merged because the packet explicitly identifies the same vendor and announcement, not simply because titles match.
+P1 and P2 support investigating recurring calendar-update trouble within this selected fictional sample. Their distinct shops are given by the exercise, not independently verified.
 
-## Candidate problem
+P3 says immediate use of an existing calendar solves the issue. That makes staff practices a competing explanation worth checking. R1 could reflect a product-specific defect.
 
-**User and failure:** a repair-shop scheduler receives appointment changes through several channels, and changes fail to reach the shared schedule before staff act on it.
+B1 and B2 are the same announcement, so eight records become seven after removing one copy. The advertised price proves no sale. B3 concerns reminders, an adjacent task. R2 gives no evidence about appointment changes.
 
-**Status:** recurring problem hypothesis within this demonstration. Supporting accounts are P1, P2 and R1, though R1 may have a different cause. Workarounds include end-of-day copying, a paper log and checking integrations manually. Only P1 reports a time estimate; none reports spending on a fix or a measured financial loss.
+The sample cannot establish prevalence, a complete weekly total or willingness to buy a new tool.
 
-**Competing explanations:** P3 suggests that consistent use of an existing calendar may be sufficient. R1 could be a temporary integration defect. B1 shows a competing offer, but its sales and effectiveness are unknown. B3's reminders address an adjacent task.
+## 5. What should we check next?
 
-**Claim earned:** investigate how appointment changes move between channels and the schedule. Confidence is tentative because these are selected accounts, one support source may reflect a different mechanism, and the contrary example offers a plausible existing solution.
+**Investigate through interviews.** Ask three repair-shop schedulers to reconstruct their most recent reschedule: when it arrived, when the calendar changed, what went wrong and whether the consequence mattered.
 
-**Claims not earned:** prevalence, a complete weekly count, willingness to buy a new product, or a market-size estimate. There is no basis for engagement rankings.
-
-## Next check and decision
-
-Investigate with three schedulers who handle rescheduling. Candidate recruitment or evidence sources are a repair-industry practitioner association, a shop-management support forum and reviews of an appointment-management product. These are proposed source types, not sources already accessed or verified.
-
-Ask each scheduler to reconstruct the most recent reschedule from first message to final calendar entry. Record delays, exceptions, the existing workaround and whether its consequence matters to them. Obtain authorization before contacting anyone.
-
-Revise or stop the software branch if existing calendar practices solve the issue reliably and schedulers see no meaningful remaining cost. Interviews may earn a further test; they do not by themselves prove purchase intent.
-
-## When inputs are missing
-
-If someone asks for a seven-day scan but supplies only a source list, there are no findings yet. Resolve the intended buyer and permitted access route, then propose a bounded source plan. Do not populate the report with invented counts or reuse the synthetic accounts above as evidence.
-
-If a supplied packet lacks timestamps, analyze its task failures as an undated sample. Leave the window unknown and do not invent weekly totals. If all accounts are launches, report supply patterns and the missing practitioner evidence.
+Revise or stop the software idea if consistent use of existing calendars resolves the issue with no meaningful remaining cost. The next decision is whether the problem deserves more investigation; a product commitment needs further evidence.
