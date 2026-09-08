@@ -1,6 +1,19 @@
 # Community problem-discovery record
 
-## Decision and scope
+Use a few sentences per question for supplied discussions. Give the decision and a one-line note on the sample: where it came from, how it was selected, and important gaps. Mark fictional practice as fictional.
+
+1. **Who is having the problem?** Name the role; leave unknown identities or occupations unknown.
+2. **What task is going wrong?** Describe the observed failure; distinguish possible causes from facts.
+3. **What do they do about it now?** Include workarounds and consequences, noting whether costs are reported or measured.
+4. **What evidence supports or contradicts the problem?** Cite IDs or links. Separate promotion from firsthand accounts; note duplicates, uncertain independence and counterexamples. State what the sample cannot establish.
+5. **What should we check next?** Choose investigate, hold or stop, explain why, and name a bounded next check and a condition that would change or stop it.
+
+<details>
+<summary>Optional collection record: use for larger samples, new collection or a detailed handoff</summary>
+
+Complete only fields relevant to the review. Unknown and not applicable are valid entries. These records support the five-question answer above.
+
+### Scope and coverage
 
 - Decision this review informs:
 - User role and task:
@@ -11,7 +24,7 @@
 - Allowed access and use; checked date:
 - Retention and deletion requirements:
 
-## Coverage
+### Coverage
 
 | Source | Supplier / practitioner / review | Ordering or selection | Raw items | Oldest–newest | Full cutoff reached? | Ceiling, errors or missing fields |
 |---|---|---|---:|---|---|---|
@@ -25,29 +38,4 @@
 - Manual review scope, including excluded items and contradictions:
 - Private evidence location and source-reference convention:
 
-## Candidate problem
-
-Repeat this section only for candidates worth retaining. “No candidate earned further investigation” is a valid result.
-
-- User, task and failure condition:
-- Status: isolated lead / recurring problem hypothesis / supply observation
-- Independent supporting accounts and how independence was assessed:
-
-| Source pointer and date | Role | Observed account | Workaround | Consequence and how known |
-|---|---|---|---|---|
-| | | | | |
-
-- Existing solutions and promotion:
-- Contradictions and alternative explanations:
-- What the evidence supports:
-- What it does not support:
-- Confidence and reason, without invented numerical precision:
-- Next buyer role and up to three proposed sources:
-- Bounded next action and question:
-- Stop or revise this branch if:
-
-## Decision
-
-- Investigate, hold or stop; reason:
-- Missing evidence most likely to change that decision:
-- Collection, outreach or publication requiring separate authorization:
+</details>
