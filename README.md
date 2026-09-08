@@ -1,33 +1,38 @@
 # Research & Experiments
 
-My background is in operations, project management and process improvement. I'm exploring what I can do with AI and sharing what I find. I choose the questions and direct the work; AI helps with research, drafting and technical implementation.
+## Community Problem Radar: a reusable AI research skill
 
-## Community Problem Radar
+Give your assistant a set of instructions for reviewing community discussions: separate product promotion from firsthand problems, check conflicting evidence, and decide what deserves further investigation.
 
-This started with a scan of 17 Reddit communities for startup and app ideas. The discussions revealed what people were building and where builders got stuck. They gave us much less evidence of what buyers needed.
+The skill is written in Markdown, with a guide, output template and fictional practice case. I'm sharing the instructions so you can use or adapt them without developing the workflow from scratch.
 
-The method below grew out of that investigation. For example, a product announcement shows that someone is offering a solution. A person describing a failed task and their workaround gives us something different to investigate.
+## Use the skill
 
-This collection contains the method and a fictional exercise. The original Reddit dataset and analysis scripts are separate from this public resource.
+Download this repository using **Code → Download ZIP**, unzip it, and find `skills/community-problem-radar`. Keep that whole folder together; [SKILL.md](skills/community-problem-radar/SKILL.md) contains the main instructions.
 
-## Try it
+For local skill installation, copy the folder to the location for your assistant:
 
-Open the [practice input](skills/community-problem-radar/assets/practice-input.md). It contains eight fictional records and a prompt you can copy together into an ordinary AI chat. No installation or other files are needed. You can also answer it yourself.
+| Assistant | Personal skill folder | Setup documentation |
+|---|---|---|
+| Codex | `~/.agents/skills/community-problem-radar/` | [Codex skills](https://learn.chatgpt.com/docs/build-skills) |
+| Claude Code | `~/.claude/skills/community-problem-radar/` | [Claude Code skills](https://code.claude.com/docs/en/skills) |
 
-The exercise uses five questions:
+Then ask your assistant to use Community Problem Radar on discussions you supply. If it cannot find the skill, check its setup documentation above.
 
-1. Who is having the problem?
-2. What task is going wrong?
-3. What do they do about it now?
-4. What evidence supports or contradicts the problem?
-5. What should we check next?
+**Without installation:** attach or paste `SKILL.md`, `references/guide.md` and `assets/research-template.md` into a Claude, ChatGPT or other AI chat, along with your discussions. Supplying a web link alone may not give the assistant access to every file.
 
-Then compare with the [worked answer](skills/community-problem-radar/references/worked-example.md). With your own material, use the [short template](skills/community-problem-radar/assets/research-template.md).
+Example request:
 
-## Optional detail
+> Use Community Problem Radar on these discussions. Answer its five questions, cite the source IDs, and explain what deserves investigation and what would make us stop. Keep missing information unknown.
 
-The [guide](skills/community-problem-radar/references/guide.md) explains the evidence checks and larger collections. For assistants that support skills, copy the complete `skills/community-problem-radar` folder into their supported skill directory; [SKILL.md](skills/community-problem-radar/SKILL.md) is the entrypoint.
+## Try it first
 
-AI drafted this resource under my direction. It hasn't been tested with human readers or validated as a way to predict demand. This is a personal collection without an ongoing support commitment or a request for contributions.
+The [practice input](skills/community-problem-radar/assets/practice-input.md) has eight fictional records and a self-contained prompt. Copy the page into an AI chat, or give the records to your installed skill. Compare with the [worked answer](skills/community-problem-radar/references/worked-example.md) afterward.
 
-Version 0.2. Reuse with credit under [CC BY 4.0](LICENSE.md). [Provenance](PROVENANCE.md) · [Changes](CHANGELOG.md).
+## Where it came from
+
+My background is in operations, project management and process improvement. I directed an AI-assisted scan of 17 Reddit communities for startup and app ideas. It revealed what builders were making and where they got stuck, with much less evidence of what buyers needed. This skill grew from that distinction; the original dataset and scripts remain separate.
+
+AI drafted the skill under my direction. Agent reviews informed revisions; human usability, setup across products and improved outcomes remain unverified. This is a personal collection without ongoing support or a request for contributions.
+
+Version 0.3. Reuse and adapt with credit under [CC BY 4.0](LICENSE.md). [Provenance](PROVENANCE.md) · [Changes](CHANGELOG.md).
