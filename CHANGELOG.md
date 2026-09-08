@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2 — 2026-09-08
+
+- Made a five-question exercise the main route, with a standalone practice packet for ordinary AI chats.
+- Separated fictional input from the worked answer and made collection records and skill installation optional.
+- Corrected the example to treat an unspecified reviewer's integration failure as adjacent evidence.
+- Simplified the guide after an agent audience simulation. Human usability and predictive accuracy remain untested.
+
 ## 0.1 — 2026-09-08
 
 - Packaged the community problem-discovery method with a research template and portable assistant skill.
