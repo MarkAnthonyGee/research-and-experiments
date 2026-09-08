@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3 — 2026-09-08
+
+- Presented Community Problem Radar as a reusable Markdown skill, with local setup guidance for Codex and Claude Code and a direct-chat alternative.
+- Kept the short workflow and practice case; clarified that the intended benefit is reusing the instructions, not proven superiority over a plain prompt.
+- Made the platform-access reference work when the skill folder is copied outside this repository, and included source and license links in the skill.
+
 ## 0.2 — 2026-09-08
 
 - Made a five-question exercise the main route, with a standalone practice packet for ordinary AI chats.
