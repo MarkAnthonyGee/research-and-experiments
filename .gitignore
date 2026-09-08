@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+private/
+data/
+*.jsonl
+*.sqlite
+*.sqlite3
+*.db
+
+# Keep source archives and personal research outside this repository.
+# Ignore rules are convenience safeguards, not a publication audit.
